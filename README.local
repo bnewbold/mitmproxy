@@ -1,0 +1,2 @@
+
+sudo ./mitmproxy -P http://openlibrary.org -p 80 -z --anticache -s scripts/openlibrary.py --setheader /Host/openlibrary.org -e
